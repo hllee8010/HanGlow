@@ -34,9 +34,9 @@
     /* ── Korean Decorative Elements ── */
     #screen-home { position:relative; overflow-x:hidden; background:var(--hg-ivory); }
     .deco { position:absolute; pointer-events:none; }
-    .deco-1 { top:170px; right:-18px; width:55px; opacity:0.08; z-index:2; }
-    .deco-2 { top:500px; left:-20px; width:50px; opacity:0.06; z-index:2; transform:scaleX(-1); }
-    .deco-3 { bottom:85px; right:-15px; width:45px; opacity:0.06; z-index:2; }
+    .deco-1 { top:170px; right:-8px; width:80px; opacity:0.25; z-index:2; }
+    .deco-2 { top:520px; left:-10px; width:70px; opacity:0.20; z-index:2; transform:scaleX(-1); }
+    .deco-3 { bottom:100px; right:-8px; width:65px; opacity:0.20; z-index:2; }
 
     /* ══ HanGlow Home Restyling ══ */
     .hg-hero-character { display:flex; justify-content:center; align-items:center; margin-top:-40px; margin-bottom:-40px; position:relative; z-index:5; pointer-events:none; }
@@ -604,8 +604,8 @@
 
     /* Login decorative images */
     .login-deco { position:absolute; pointer-events:none; }
-    .login-deco-1 { bottom:30px; right:-12px; width:65px; opacity:0.13; z-index:2; }
-    .login-deco-2 { bottom:160px; left:-15px; width:55px; opacity:0.10; z-index:2; transform:scaleX(-1); }
+    .login-deco-1 { bottom:30px; right:-5px; width:80px; opacity:0.25; z-index:2; }
+    .login-deco-2 { bottom:180px; left:-8px; width:70px; opacity:0.20; z-index:2; transform:scaleX(-1); }
   </style>
 </head>
 <body>
@@ -657,13 +657,16 @@
         <a href="#">Terms of Service</a> · <a href="#">Privacy Policy</a>
       </div>
     </div>
-    <!-- decorative elements removed (missing image files) -->
+    <img class="login-deco login-deco-1" src="han_corner_top_left.svg" alt="">
+    <img class="login-deco login-deco-2" src="han_corner_bottom_left.svg" alt="">
   </div>
 
   <!-- ══════════ HOME ══════════ -->
   <div id="screen-home" class="screen">
     <!-- Korean decorative elements -->
-    <!-- decorative elements removed (missing image files) -->
+    <img class="deco deco-1" src="han_corner_top_left.svg" alt="">
+    <img class="deco deco-2" src="han_corner_bottom_left.svg" alt="">
+    <img class="deco deco-3" src="han_circle_border.svg" alt="">
     <div class="header">
       <div class="header-logo" style="text-align:center;">Han<span>Glow</span></div>
       <div class="header-sub" id="home-greeting">Welcome! Let's learn Korean today</div>
